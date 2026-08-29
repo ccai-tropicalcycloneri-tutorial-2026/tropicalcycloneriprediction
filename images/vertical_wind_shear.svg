@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="395" viewBox="0 0 680 395" role="img">
+<title>Vertical wind shear seen from the side</title>
+<desc>Side view of a hurricane as a column about 12 km high standing on the ocean. The upper-level wind at 200 hPa blows one way and the lower-level wind at 850 hPa blows the other; the vertical shear is the difference between them.</desc>
+<style>
+  text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .th { font-size: 14px; font-weight: 500; fill: #3d3d3a; }
+  .ts { font-size: 12px; font-weight: 400; fill: #73726c; }
+  .blue  { fill: #E6F1FB; stroke: #185FA5; }
+  .amber { fill: #FAEEDA; stroke: #BA7517; }
+  .gray  { fill: #F1EFE8; stroke: #5F5E5A; }
+  .ink   { stroke: #3d3d3a; }
+  .rule  { stroke: #73726c; }
+  .arr   { stroke: #3d3d3a; stroke-width: 1.5; fill: none; }
+  @media (prefers-color-scheme: dark) {
+    .th { fill: #c2c0b6; } .ts { fill: #9c9a92; }
+    .blue  { fill: #0C447C; stroke: #85B7EB; }
+    .amber { fill: #633806; stroke: #EF9F27; }
+    .gray  { fill: #444441; stroke: #B4B2A9; }
+    .ink { stroke: #c2c0b6; } .rule { stroke: #9c9a92; } .arr { stroke: #c2c0b6; }
+  }
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<polygon class="gray" points="212,300 282,300 262,96 152,96" stroke-width="2"/>
+<rect class="blue" x="55" y="300" width="365" height="14" rx="3" stroke-width="2"/>
+<line class="rule" x1="55" y1="90" x2="420" y2="90" stroke-width="1" stroke-dasharray="5 4"/>
+<line class="arr" x1="148" y1="66" x2="66" y2="66" marker-end="url(#arrow)"/>
+<line class="rule" x1="55" y1="266" x2="420" y2="266" stroke-width="1" stroke-dasharray="5 4"/>
+<line class="arr" x1="66" y1="288" x2="148" y2="288" marker-end="url(#arrow)"/>
+<text class="th" x="432" y="62" dominant-baseline="central">Upper-level wind: 200 hPa</text>
+<text class="ts" x="432" y="84" dominant-baseline="central">about 12 km above the sea</text>
+<text class="th" x="432" y="150" dominant-baseline="central">Vertical shear</text>
+<text class="ts" x="432" y="172" dominant-baseline="central">the difference between</text>
+<text class="ts" x="432" y="190" dominant-baseline="central">these two winds</text>
+<text class="th" x="432" y="252" dominant-baseline="central">Lower-level wind: 850 hPa</text>
+<text class="ts" x="432" y="274" dominant-baseline="central">about 1.5 km above the sea</text>
+<text class="ts" x="55" y="348" dominant-baseline="central">Weak shear tends to let a storm strengthen.</text>
+<text class="ts" x="55" y="370" dominant-baseline="central">Strong shear tends to stop it.</text>
+</svg>

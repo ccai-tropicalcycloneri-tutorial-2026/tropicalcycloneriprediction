@@ -1,24 +1,41 @@
-<svg width="100%" viewBox="0 0 680 342" role="img" xmlns="http://www.w3.org/2000/svg" style=""><title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">The disc and the annulus, and what is measured in each</title><desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A plan view of a tropical cyclone. A legend identifies the blue inner region as the disc, radius 0 to 200 km, where sea surface temperature, sea level pressure and column water vapour are measured, and the amber outer region as the annulus, radius 200 to 800 km, where winds at 200 hPa and 850 hPa are measured, whose difference gives the vertical wind shear. The middle is excluded from the wind measurement because a tropical cyclone generates its own circulation there.</desc>
-
-<circle cx="170" cy="150" r="110" stroke-width="2" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="170" cy="150" r="27.5" stroke-width="2" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<line x1="161" y1="150" x2="179" y2="150" stroke="var(--p)" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(11, 11, 11);color:rgb(11, 11, 11);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<line x1="170" y1="141" x2="170" y2="159" stroke="var(--p)" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(11, 11, 11);color:rgb(11, 11, 11);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<circle cx="64" cy="290" r="7" stroke-width="2" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="80" y="290" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">disc, 0 to 200 km</text>
-<circle cx="64" cy="312" r="7" stroke-width="2" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);color:rgb(11, 11, 11);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="80" y="312" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">annulus, 200 to 800 km</text>
-
-<text x="346" y="58" dominant-baseline="central" style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">What we measure in the disc</text>
-<text x="346" y="82" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Sea surface temperature</text>
-<text x="346" y="100" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Sea level pressure</text>
-<text x="346" y="118" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Column water vapour</text>
-
-<text x="346" y="158" dominant-baseline="central" style="fill:rgb(11, 11, 11);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">What we measure in the annulus</text>
-<text x="346" y="182" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Winds at 200 hPa and 850 hPa</text>
-<text x="346" y="200" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Their difference is the</text>
-<text x="346" y="218" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">vertical wind shear</text>
-<text x="346" y="246" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">The middle is left out because a</text>
-<text x="346" y="264" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">hurricane makes its own wind there,</text>
-<text x="346" y="282" dominant-baseline="central" style="fill:rgb(82, 81, 78);stroke:none;color:rgb(11, 11, 11);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:anthropic-sans, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">which would hide the outside air.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="342" viewBox="0 0 680 342" role="img">
+<title>The disc and the annulus, and what is measured in each</title>
+<desc>Plan view of a tropical cyclone. A blue inner disc of radius 200 km is where sea surface temperature, sea level pressure and column water vapour are measured. The surrounding amber annulus from 200 to 800 km is where winds at 200 and 850 hPa are measured, whose difference is the vertical wind shear.</desc>
+<style>
+  text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .th { font-size: 14px; font-weight: 500; fill: #3d3d3a; }
+  .ts { font-size: 12px; font-weight: 400; fill: #73726c; }
+  .blue  { fill: #E6F1FB; stroke: #185FA5; }
+  .amber { fill: #FAEEDA; stroke: #BA7517; }
+  .gray  { fill: #F1EFE8; stroke: #5F5E5A; }
+  .ink   { stroke: #3d3d3a; }
+  .rule  { stroke: #73726c; }
+  .arr   { stroke: #3d3d3a; stroke-width: 1.5; fill: none; }
+  @media (prefers-color-scheme: dark) {
+    .th { fill: #c2c0b6; } .ts { fill: #9c9a92; }
+    .blue  { fill: #0C447C; stroke: #85B7EB; }
+    .amber { fill: #633806; stroke: #EF9F27; }
+    .gray  { fill: #444441; stroke: #B4B2A9; }
+    .ink { stroke: #c2c0b6; } .rule { stroke: #9c9a92; } .arr { stroke: #c2c0b6; }
+  }
+</style>
+<circle class="amber" cx="170" cy="150" r="110" stroke-width="2"/>
+<circle class="blue" cx="170" cy="150" r="27.5" stroke-width="2"/>
+<line class="ink" x1="161" y1="150" x2="179" y2="150" stroke-width="2.5" stroke-linecap="round"/>
+<line class="ink" x1="170" y1="141" x2="170" y2="159" stroke-width="2.5" stroke-linecap="round"/>
+<circle class="blue" cx="64" cy="290" r="7" stroke-width="2"/>
+<text class="ts" x="80" y="290" dominant-baseline="central">disc, 0 to 200 km</text>
+<circle class="amber" cx="64" cy="312" r="7" stroke-width="2"/>
+<text class="ts" x="80" y="312" dominant-baseline="central">annulus, 200 to 800 km</text>
+<text class="th" x="346" y="58" dominant-baseline="central">What we measure in the disc</text>
+<text class="ts" x="346" y="82" dominant-baseline="central">Sea surface temperature</text>
+<text class="ts" x="346" y="100" dominant-baseline="central">Sea level pressure</text>
+<text class="ts" x="346" y="118" dominant-baseline="central">Column water vapour</text>
+<text class="th" x="346" y="158" dominant-baseline="central">What we measure in the annulus</text>
+<text class="ts" x="346" y="182" dominant-baseline="central">Winds at 200 hPa and 850 hPa</text>
+<text class="ts" x="346" y="200" dominant-baseline="central">Their difference is the</text>
+<text class="ts" x="346" y="218" dominant-baseline="central">vertical wind shear</text>
+<text class="ts" x="346" y="246" dominant-baseline="central">The middle is left out because a</text>
+<text class="ts" x="346" y="264" dominant-baseline="central">hurricane makes its own wind there,</text>
+<text class="ts" x="346" y="282" dominant-baseline="central">which would hide the outside air.</text>
+</svg>
