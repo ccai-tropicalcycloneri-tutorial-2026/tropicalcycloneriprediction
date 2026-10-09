@@ -6,7 +6,7 @@ In this tutorial, we learn how machine learning can be used to predict **rapid i
 
 We recommend executing this notebook in a **Google Colab environment** to manage the necessary dependencies and provide a consistent execution environment.
 
-**[Open In Colab](https://colab.research.google.com/github/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction/blob/main/tropicalcyclone_rapidintensification.ipynb)**
+**[Open In Colab](https://colab.research.google.com/github/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction/blob/main/notebook/tropicalcyclone_rapidintensification.ipynb)**
 
 Estimated time to execute end-to-end: **2 Hour**
 
