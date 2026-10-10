@@ -19,7 +19,7 @@
     .ink { stroke: #c2c0b6; } .rule { stroke: #9c9a92; } .arr { stroke: #c2c0b6; }
   }
 </style>
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="arr" d="M2 1L8 5L2 9" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 <polygon class="gray" points="212,300 282,300 262,96 152,96" stroke-width="2"/>
 <rect class="blue" x="55" y="300" width="365" height="14" rx="3" stroke-width="2"/>
 <line class="rule" x1="55" y1="90" x2="420" y2="90" stroke-width="1" stroke-dasharray="5 4"/>

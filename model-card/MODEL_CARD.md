@@ -34,7 +34,7 @@
   - *Primary:* PR-AUC (average precision). Its no-skill value is the RI rate.
   - *Supporting:* Brier skill score (BSS) against training climatology, and probability of detection (POD) and false alarm ratio (FAR) at the decision threshold.
 - **Decision thresholds:** 0.122, the threshold with the highest F2 score on the validation years. F2 weights missing an RI event more heavily than a false alarm. F2 stays within 0.01 of its best value for thresholds from about 0.08 to 0.17.
-- **Variation approaches:** Cross-validation scores are reported as mean ± standard deviation across 5 storm-grouped folds. A leave-one-feature-group-out ablation reports in how many folds PR-AUC drops.
+- **Variation approaches:** Cross-validation scores are reported as mean ± standard deviation across 5 storm-grouped folds. A feature-group ablation compares each data source on its own and the full model without it.
 
 ## Evaluation Data
 - **Datasets:** Test seasons 2016–2025: 13,798 observations from 859 storms, RI rate 10.2%. Validation seasons 2011–2015 (7,496 observations, RI rate 9.9%) are used for calibration and threshold selection.

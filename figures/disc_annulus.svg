@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="342" viewBox="0 0 680 342" role="img">
 <title>The disc and the annulus, and what is measured in each</title>
-<desc>Plan view of a tropical cyclone. A blue inner disc of radius 200 km is where sea surface temperature, sea level pressure and column water vapour are measured. The surrounding amber annulus from 200 to 800 km is where winds at 200 and 850 hPa are measured, whose difference is the vertical wind shear.</desc>
+<desc>Plan view of a tropical cyclone. A blue inner disc of radius 200 km is where sea surface temperature, sea level pressure and column water vapor are measured. The surrounding amber annulus from 200 to 800 km is where winds at 200 and 850 hPa are measured, whose difference is the vertical wind shear.</desc>
 <style>
   text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
   .th { font-size: 14px; font-weight: 500; fill: #3d3d3a; }
@@ -30,7 +30,7 @@
 <text class="th" x="346" y="58" dominant-baseline="central">What we measure in the disc</text>
 <text class="ts" x="346" y="82" dominant-baseline="central">Sea surface temperature</text>
 <text class="ts" x="346" y="100" dominant-baseline="central">Sea level pressure</text>
-<text class="ts" x="346" y="118" dominant-baseline="central">Column water vapour</text>
+<text class="ts" x="346" y="118" dominant-baseline="central">Column water vapor</text>
 <text class="th" x="346" y="158" dominant-baseline="central">What we measure in the annulus</text>
 <text class="ts" x="346" y="182" dominant-baseline="central">Winds at 200 hPa and 850 hPa</text>
 <text class="ts" x="346" y="200" dominant-baseline="central">Their difference is the</text>
