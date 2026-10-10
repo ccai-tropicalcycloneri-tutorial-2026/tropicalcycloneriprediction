@@ -1,6 +1,6 @@
 # Carbon Emissions and Computational Sustainability
 
-> Fields marked **[TO FILL after Colab run]** come from the CodeCarbon output of the final Colab run (`emissions.csv`, which can be added to this folder).
+> The values below come from the CodeCarbon output (`emissions.csv`) of the latest Colab run of the notebook.
 
 ---
 
@@ -49,19 +49,19 @@ Downloading and preprocessing the data in the notebook, calibration, evaluation,
 - [ ] Other
 
 **CPU:**
-[TO FILL after Colab run: from `emissions.csv`, column `cpu_model`]
+AMD EPYC 7B12 (2 virtual CPUs)
 
 **GPU or other accelerator:**
 None (the models train on CPU)
 
 **RAM:**
-[TO FILL after Colab run: column `ram_total_size`]
+12.7 GB
 
 **Computing provider:**
 Google Colab
 
 **Computing location or cloud region:**
-[TO FILL after Colab run: columns `country_name` / `region`]
+United States (Iowa), as detected by CodeCarbon
 
 ---
 
@@ -82,16 +82,16 @@ CodeCarbon
 3.3.1
 
 **Number of runs included:**
-1 (one cross-validation run and one refit, from the final notebook run)
+1 (one cross-validation run and one refit, from the latest notebook run on 2026-10-10 at 19:51 UTC)
 
 **Total computing time:**
-[TO FILL after Colab run: sum of the `duration` column, in hours]
+79 seconds (0.022 hours): cross-validation 78 s, final refit 1 s
 
 **Energy used:**
-[TO FILL after Colab run: sum of the `energy_consumed` column, in kWh]
+0.0053 kWh (cross-validation 0.0052 kWh, final refit 0.00006 kWh)
 
 **Carbon emissions:**
-[TO FILL after Colab run: cross-validation + refit, in kg CO2e, as printed in the notebook]
+0.0024 kg CO2e in total (about 2.4 g): cross-validation 0.00235 kg CO2e, final refit 0.00003 kg CO2e
 
 **Source used to determine the carbon emissions of the electricity:**
 CodeCarbon (carbon intensity of the electricity grid at the detected location)
