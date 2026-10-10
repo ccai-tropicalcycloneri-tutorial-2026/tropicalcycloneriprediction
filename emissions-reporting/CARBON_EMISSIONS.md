@@ -1,6 +1,6 @@
 # Carbon Emissions and Computational Sustainability
 
-> The values below come from the CodeCarbon output (`emissions.csv`) of the latest Colab run of the notebook.
+> The values below come from CodeCarbon in the final Colab run of the notebook. Numbers change slightly every time the notebook is run.
 
 ---
 
@@ -82,16 +82,16 @@ CodeCarbon
 3.3.1
 
 **Number of runs included:**
-1 (one cross-validation run and one refit, from the latest notebook run on 2026-10-10 at 19:51 UTC)
+1 (one cross-validation run and one refit, from the final notebook run)
 
 **Total computing time:**
-79 seconds (0.022 hours): cross-validation 78 s, final refit 1 s
+[From the final notebook run: printed under the cross-validation and refit cells]
 
 **Energy used:**
-0.0053 kWh (cross-validation 0.0052 kWh, final refit 0.00006 kWh)
+[From the final notebook run: printed under the cross-validation and refit cells]
 
 **Carbon emissions:**
-0.0024 kg CO2e in total (about 2.4 g): cross-validation 0.00235 kg CO2e, final refit 0.00003 kg CO2e
+[From the final notebook run: printed under the cross-validation and refit cells]. In our test runs, the total was a few grams of CO2e or less (between 0.4 g and 3 g).
 
 **Source used to determine the carbon emissions of the electricity:**
 CodeCarbon (carbon intensity of the electricity grid at the detected location)
