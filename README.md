@@ -84,7 +84,7 @@ To run locally, see:
 
 ➡️ `notebook/tropicalcyclone_rapidintensification.ipynb`
 
-**Estimated time to execute end-to-end:** about 2 hours.
+**Estimated time to complete:** about 1.5 hours, including the sections marked *optional reading*.
 
 **Last successfully tested:** [YYYY-MM-DD]
 
