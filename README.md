@@ -20,11 +20,12 @@ Originally presented at the [Tackling Climate Change with Machine Learning works
 ## Learning Objectives
 After completing this tutorial, participants should be able to:
 1. Explain what RI is and why it is difficult to forecast.
-2. Derive and understand explainable features from a multi-modal dataset of best-track records (IBTrACS), ERA5 reanalysis, and satellite imagery (GridSat-B1).
+2. Derive and understand interpretable features from a multi-modal dataset containing best-track records (IBTrACS), ERA5 reanalysis, and satellite imagery (GridSat).
 3. Visualize and explore the properties and behavior of tropical cyclones.
 4. Recognize why class imbalance makes standard metrics like accuracy misleading for rare-event problems.
-5. Choose and interpret evaluation metrics suited to rare, high-stakes prediction problems: precision-recall curves, probability of detection, false alarm ratio, and Brier skill score.
+5. Choose and interpret evaluation metrics suited to rare, high-stakes prediction problems: precision–recall curves, probability of detection, false alarm ratio, and Brier skill score.
 6. Critically assess an ML model's real-world limitations.
+7. Explain how such a model should and should not be used, and measure the energy and carbon emissions of training it.
 
 ### Intended Audience
 - Beginner-to-intermediate ML practitioners and students with basic Python knowledge, looking for a hands-on example of applying ML to a real-world, climate-relevant forecasting problem. No prior meteorology background is required.
