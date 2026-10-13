@@ -72,8 +72,8 @@ The dataset does not relate to people, so the remaining questions in this sectio
 - **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?** Yes, through pull requests or issues on this repository.
 
 ## References
-- DeMaria, M., & Kaplan, J. (1999). An Updated Statistical Hurricane Intensity Prediction Scheme (SHIPS) for the Atlantic and Eastern North Pacific Basins. *Weather and Forecasting*, 14(3), 326–337. https://doi.org/10.1175/1520-0434(1999)014<0326:AUSHIP>2.0.CO;2
-- Kaplan, J., & DeMaria, M. (2003). Large-Scale Characteristics of Rapidly Intensifying Tropical Cyclones in the North Atlantic Basin. *Weather and Forecasting*, 18(6), 1093–1108. https://doi.org/10.1175/1520-0434(2003)018<1093:LCORIT>2.0.CO;2
+- DeMaria, M., & Kaplan, J. (1999). An Updated Statistical Hurricane Intensity Prediction Scheme (SHIPS) for the Atlantic and Eastern North Pacific Basins. *Weather and Forecasting*, 14(3), 326–337. https://doi.org/10.1175/1520-0434%281999%29014%3C0326:AUSHIP%3E2.0.CO;2
+- Kaplan, J., & DeMaria, M. (2003). Large-Scale Characteristics of Rapidly Intensifying Tropical Cyclones in the North Atlantic Basin. *Weather and Forecasting*, 18(6), 1093–1108. https://doi.org/10.1175/1520-0434%282003%29018%3C1093:LCORIT%3E2.0.CO;2
 - Knapp, K. R., et al. (2010). The International Best Track Archive for Climate Stewardship (IBTrACS). *Bulletin of the American Meteorological Society*, 91(3), 363–376. https://doi.org/10.1175/2009BAMS2755.1
 - Knapp, K. R., et al. (2011). Globally Gridded Satellite Observations for Climate Studies. *Bulletin of the American Meteorological Society*, 92(7), 893–907. https://doi.org/10.1175/2011BAMS3039.1
 - Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803
