@@ -80,14 +80,18 @@ We recommend executing this notebook in a Colab environment to manage all necess
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-To run locally, use **Python 3.13** (with newer versions, some of the pinned packages cannot be installed):
+To run locally, we recommend [uv](https://docs.astral.sh/uv/), which also installs the right Python version (3.13) for you. With newer Python versions, some of the pinned packages cannot be installed.
 
 ```bash
+# 1. Install uv (macOS and Linux). On Windows, see https://docs.astral.sh/uv/getting-started/installation/
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 2. In a new terminal: get the tutorial, set up Python 3.13, and install the packages
 git clone https://github.com/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction.git
 cd tropicalcycloneriprediction
-python3.13 -m venv .venv          # on Windows: py -3.13 -m venv .venv
+uv venv --python 3.13 --seed      # --seed adds pip, which the notebook's install cell uses
 source .venv/bin/activate         # on Windows: .venv\Scripts\activate
-python -m pip install -r requirements.txt jupyter
+uv pip install -r requirements.txt jupyter
 jupyter notebook notebook/tropicalcyclone_rapidintensification.ipynb
 ```
 
