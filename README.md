@@ -86,7 +86,7 @@ To run locally, see:
 
 **Estimated time to complete:** about 1.5 hours, including the sections marked *optional reading*.
 
-**Last successfully tested:** [YYYY-MM-DD]
+**Last successfully tested:** 2026-10-13
 
 ### Model Information
 This submission involves a machine-learning model (logistic regression and XGBoost classifiers for 24-hour RI prediction).
