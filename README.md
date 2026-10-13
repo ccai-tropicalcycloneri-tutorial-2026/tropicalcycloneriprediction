@@ -89,11 +89,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # 2. In a new terminal: get the tutorial, set up Python 3.13, and install the packages
 git clone https://github.com/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction.git
 cd tropicalcycloneriprediction
-uv venv --python 3.13 --seed      # --seed adds pip, which the notebook's install cell uses
-source .venv/bin/activate         # on Windows: .venv\Scripts\activate
+uv venv --python 3.13 --seed      # Python 3.13 environment in .venv (--seed adds pip)
 uv pip install -r requirements.txt jupyter
-jupyter notebook notebook/tropicalcyclone_rapidintensification.ipynb
+uv run jupyter notebook notebook/tropicalcyclone_rapidintensification.ipynb
 ```
+
+These steps already install the packages, so comment out the `%pip install` line in the notebook's install cell. When you come back later, run `uv run jupyter notebook` again in the same folder.
 
 **Estimated time to complete:** about 1.5 hours, including the sections marked *optional reading*.
 
