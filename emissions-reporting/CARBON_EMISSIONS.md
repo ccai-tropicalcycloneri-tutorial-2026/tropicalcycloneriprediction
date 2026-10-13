@@ -85,13 +85,13 @@ CodeCarbon
 1 (one cross-validation run and one refit, from the final notebook run)
 
 **Total computing time:**
-135 seconds (0.037 hours): cross-validation 133 s, final refit 2 s
+157 seconds (0.043 hours): cross-validation 153 s, final refit 4 s
 
 **Energy used:**
-0.00067 kWh (cross-validation 0.00066 kWh, final refit 0.00001 kWh)
+0.00078 kWh (cross-validation 0.00076 kWh, final refit 0.00002 kWh)
 
 **Carbon emissions:**
-0.00019 kg CO2e in total (about 0.2 g): cross-validation 0.000188 kg CO2e, final refit 0.000002 kg CO2e. In earlier test runs, the total ranged from about 0.2 g to 3 g.
+0.00022 kg CO2e in total (about 0.2 g): cross-validation 0.000216 kg CO2e, final refit 0.000005 kg CO2e. In earlier test runs, the total ranged from about 0.2 g to 3 g.
 
 **Source used to determine the carbon emissions of the electricity:**
 CodeCarbon (carbon intensity of the electricity grid at the detected location)

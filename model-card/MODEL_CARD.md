@@ -38,7 +38,7 @@
 
 ## Evaluation Data
 - **Datasets:** Test seasons 2016–2025: 13,798 observations from 859 storms, RI rate 10.2%. Validation seasons 2011–2015 (7,496 observations, RI rate 9.9%) are used for calibration and threshold selection.
-- **Motivation:** A chronological split tests the model on future storms, as in real use, and includes the recent rise in RI rate.
+- **Motivation:** A chronological split tests the model on future storms, as in real use. The RI rate in our data is higher in the test years than in training.
 - **Preprocessing:** Same as training (see `datasheet/DATASHEET.md`).
 
 ## Training Data
@@ -54,7 +54,7 @@ Seasons 1980–2010: 57,178 observations from 2,816 storms, RI rate 7.0%. No sto
 | Logistic regression (calibrated) | 0.331 | +0.16 |
 | **XGBoost (calibrated)** | **0.420** | **+0.22** |
 
-  At the 0.120 threshold, XGBoost raises an alarm for 24.2% of test observations, with POD = 0.73 and FAR = 0.69 (precision 0.30, about three times the RI rate). Validation results are similar (POD 0.76, FAR 0.70). On the test years, the calibrated probabilities stay close to the observed frequencies (mean predicted 0.094 vs observed 0.102).
+  At the 0.120 threshold, XGBoost raises an alarm for 24.2% of test observations, with POD = 0.73 and FAR = 0.69 (precision 0.31, about three times the RI rate). Validation results are similar (POD 0.76, FAR 0.70, precision 0.31). On the test years, the calibrated probabilities stay close to the observed frequencies (mean predicted 0.094 vs observed 0.102).
 
 - **Intersectional results (test years):**
   - *By basin:* PR-AUC ranges from 0.33 (South Pacific) to 0.51 (North Indian), 3.3 to 4.9 times each basin's RI rate. Basins with few storms have less certain results.
@@ -68,8 +68,8 @@ Seasons 1980–2010: 57,178 observations from 2,816 storms, RI rate 7.0%. No sto
 - The training data come from public scientific archives and contain no personal information.
 
 ## Caveats and Recommendations
-- **Distribution shift:** RI is more common in recent years (7.0% in training vs 10.2% in test years), and future climates may differ further. Re-evaluate on recent data before use.
+- **Distribution shift:** the RI rate in our data is higher in the test years than in training (10.2% vs 7.0%), and future conditions may differ further. Re-evaluate on recent data before use.
 - **Relies on recent strengthening:** the strongest signal is the wind change over the past 6–12 hours, so the start of RI is harder to catch than ongoing RI.
-- **Many false alarms at the F2 threshold:** about half of them still strengthened by at least 15 kt. A higher threshold gives fewer false alarms but misses more RI events.
+- **Many false alarms at the F2 threshold:** about 7 in 10 alarms are false. A higher threshold gives fewer false alarms but misses more RI events.
 - **Simple features:** area averages around the storm leave out the storm's inner structure.
 - **Not real-time:** retraining and testing on real-time inputs (operational analyses, working best tracks, live satellite images) would be needed. See the Limitations section of the notebook.
