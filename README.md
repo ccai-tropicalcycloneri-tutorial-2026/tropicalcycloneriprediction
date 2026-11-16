@@ -11,11 +11,10 @@ Rapid intensification (RI), an increase in a tropical cyclone's maximum wind of 
 
 ### Authors:
 
-- **[Anonymized for review]**
+- **Sukhada Ghewari**, Independent Researcher
+- **Adway Mitra**, Indian Institute of Technology Kharagpur
 
-> Reminder for Round II reviews please keep all tutorial materials anonymized to support the double-blind review process.
-
-Originally presented at the [Tackling Climate Change with Machine Learning workshop at NeurIPS 2026].
+Originally presented at the [Tackling Climate Change with Machine Learning workshop at NeurIPS 2026](https://www.climatechange.ai/events/neurips2026) (Tutorials Track).
 
 ## Learning Objectives
 After completing this tutorial, participants should be able to:
@@ -99,7 +98,7 @@ These steps already install the packages, so comment out the `%pip install` line
 
 **Estimated time to complete:** about 1.5 hours, including the sections marked *optional reading*.
 
-**Last successfully tested:** 2026-10-13
+**Last successfully tested:** 2026-11-16
 
 ### Model Information
 This submission involves a machine-learning model (logistic regression and XGBoost classifiers for 24-hour RI prediction).
@@ -139,7 +138,15 @@ Usage of this tutorial is subject to the MIT License.
 ## Cite
 
 ### Plain Text
-[Insert plain text citation of accepted submission here.]
+Ghewari, S., & Mitra, A. (2026). Tropical Cyclone Rapid Intensification (RI) Prediction using Machine Learning [Tutorial]. NeurIPS 2026 Workshop on Tackling Climate Change with Machine Learning. https://github.com/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction
 
 ### BibTeX
-[Insert BibTex citation of accepted submission here.]
+```bibtex
+@inproceedings{ghewari2026tropical,
+  title     = {Tropical Cyclone Rapid Intensification (RI) Prediction using Machine Learning},
+  author    = {Ghewari, Sukhada and Mitra, Adway},
+  booktitle = {NeurIPS 2026 Workshop on Tackling Climate Change with Machine Learning},
+  year      = {2026},
+  url       = {https://github.com/ccai-tropicalcycloneri-tutorial-2026/tropicalcycloneriprediction}
+}
+```

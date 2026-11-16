@@ -1,9 +1,9 @@
 # Model Card - Calibrated XGBoost for 24-hour Tropical Cyclone RI Prediction
 > The outline follows Figure 1 of [Mitchell et al., Model Cards for Model Reporting (2019)](https://arxiv.org/abs/1810.03993).
-> Numbers are from a run of the tutorial notebook. Because XGBoost trains in parallel, results can differ by about ±0.01 between computers.
+> Numbers are from a run of the tutorial notebook. Because XGBoost trains in parallel, results can differ slightly between computers: about ±0.01 for PR-AUC and BSS, and about ±0.02 for threshold-based numbers such as POD and FAR.
 
 ## Model Details
-- **Person or organization developing model:** [Anonymized for review.]
+- **Person or organization developing model:** Sukhada Ghewari (Independent Researcher) and Adway Mitra (Indian Institute of Technology Kharagpur)
 - **Model date:** 2026
 - **Model version:** 1.0 (as in this repository)
 - **Model type:** Gradient-boosted decision trees (XGBoost `XGBClassifier`) for binary classification, with isotonic regression calibration. A logistic regression model (median imputation, standardization, `class_weight="balanced"`), climatology, and a wind-trend rule are trained as baselines.
@@ -37,7 +37,7 @@
 - **Variation approaches:** Cross-validation scores are reported as mean ± standard deviation across 5 storm-grouped folds. A feature-group ablation compares each data source on its own and the full model without it.
 
 ## Evaluation Data
-- **Datasets:** Test seasons 2016–2025: 13,798 observations from 859 storms, RI rate 10.2%. Validation seasons 2011–2015 (7,496 observations, RI rate 9.9%) are used for calibration and threshold selection.
+- **Datasets:** Test seasons 2016–2025: 13,798 observations from 859 storms, RI rate 10.2%. The 2025 season is only partly included (32 storms), because many 2025 storms were still provisional in IBTrACS. Validation seasons 2011–2015 (7,496 observations, RI rate 9.9%) are used for calibration and threshold selection.
 - **Motivation:** A chronological split tests the model on future storms, as in real use. The RI rate in our data is higher in the test years than in training.
 - **Preprocessing:** Same as training (see `datasheet/DATASHEET.md`).
 
@@ -60,7 +60,7 @@ Seasons 1980–2010: 57,178 observations from 2,816 storms, RI rate 7.0%. No sto
   - *By basin:* PR-AUC ranges from 0.33 (South Pacific) to 0.51 (North Indian), 3.3 to 4.9 times each basin's RI rate. Basins with few storms have less certain results.
   - *By storm strength:* best for tropical storms and Category 1–2 hurricanes (PR-AUC 0.41–0.52), weak for tropical depressions and Category 4 hurricanes (PR-AUC about 0.13–0.14), where RI is rare.
   - *By RI stage:* catches 51% of RI onsets and 82% of ongoing RI cases.
-  - *By year:* PR-AUC between 0.31 and 0.50, 3.6 to 4.8 times each year's RI rate, with no downward trend.
+  - *By year:* PR-AUC between 0.31 and 0.50, 3.6 to 4.8 times each year's RI rate. Relative to the RI rate, skill is a little lower in 2022–2025 (3.6 to 3.9 times) than in 2016–2021 (4.0 to 4.8 times).
 
 ## Ethical Considerations
 - Missed RI events can lead to under-prepared communities, and frequent false alarms can reduce trust in warnings. This model is a teaching tool and must not replace official forecasts.
