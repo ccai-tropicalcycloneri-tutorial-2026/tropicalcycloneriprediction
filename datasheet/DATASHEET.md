@@ -39,7 +39,7 @@ The dataset does not relate to people, so the remaining questions in this sectio
 - **What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)**? Python scripts (xarray, NumPy, pandas) that read IBTrACS, ERA5, and GridSat-B1 and compute area averages at each storm time.
 - **If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)**? Deterministic filtering, as described under Composition.
 - **Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?** The tutorial authors. No crowdworkers were involved.
-- **Over what timeframe was the data collected?** Storm seasons 1980–2025. The features were computed in 2026.
+- **Over what timeframe was the data collected?** Storm seasons 1980–2025. The features were computed in 2026. The 2025 season is only partly included: when the data were prepared, IBTrACS still marked many 2025 storms as provisional, and only final (`main`) tracks are used.
 - **Were any ethical review processes conducted (e.g., by an institutional review board)?** Not applicable. The data contain no information about people.
 
 ## Preprocessing/cleaning/labeling
